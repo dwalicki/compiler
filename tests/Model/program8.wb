@@ -1,0 +1,11 @@
+/* program8.wb
+
+Wabbit has function definitions.  Here's a function that adds values.
+*/
+   
+func add(x int, y int) int {
+    return x + y;
+}
+
+var result = add(2, 3);
+print result;          

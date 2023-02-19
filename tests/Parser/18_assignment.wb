@@ -1,0 +1,18 @@
+/* 18_assignment.wb
+
+   Assignment is an expression in Wabbit.  That means that it can be used
+   anywhere an expression is expected, including in print statements,
+   while loops, and so forth.   Structurally, assignment looks similar
+   to a binary operator like +.  Thus, you can parse it in a similar
+   way.  However, assignment is also right-assocative meaning that
+   `x = y = n + 2` gets structured as `x = (y = n + 2)`.
+
+```
+
+x = 1;
+print x = 1;
+while (n = n + 1) < 10 {
+   print n;
+}
+x = y = 2;      // Note: should be structured as x = (y = 2);
+

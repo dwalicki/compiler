@@ -1,0 +1,18 @@
+/* program7.wb
+
+Loops support break and continue statements.  break stops the
+inner-most loop.  continue skips to the next iteration of the inner
+most loop.  This program counts down from 5 and stops at 0.
+*/
+
+var n = 5;
+while true {
+    if n == 0 {
+        break;
+    } else {
+        print n;   
+        n = n - 1;
+        continue;
+    }
+    n = n + 1;   // Should never execute
+}

@@ -1,0 +1,13 @@
+/* program4.wb
+
+There are booleans and relations. Each of these statements prints "true"
+*/
+
+print true;
+print 1 == 1;
+print 0 < 1;
+print 1 > 0;
+print true && true;
+print false || true;
+print !false;
+

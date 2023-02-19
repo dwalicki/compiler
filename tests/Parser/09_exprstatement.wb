@@ -1,0 +1,9 @@
+/* 09_exprstatement.wb
+
+   Normally expressions appear in combination with statements such
+   as print.  However, an expression can appear all by itself with
+   a terminating semicolon.
+   
+*/
+
+1;
