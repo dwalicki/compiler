@@ -189,27 +189,3 @@ Videos from the live sessions will be posted here.
 
 * [Part 0, Introduction, Project overview](https://vimeo.com/786122275/33f1729c68) (84 min)
 * [Part 1, Model/AST, Project 1](https://vimeo.com/786122481/ee581ffb8c) (81 min)
-
-**Day 2 (January 10)**
-
-* [Part 0, Discussion of Model](https://vimeo.com/788045680/88f5c796d0) (85 min)
-* [Part 1, Semantics, Project 2](https://vimeo.com/788048159/15b5c34291) (95 min)
-
-**Day 3 (January 17)**
-
-* [Part 0, Interpreter/Type checker](https://vimeo.com/790174354/ce8399ea23) (81 min)
-* [Part 1, Lexing/Parsing](https://vimeo.com/790174597/6a29e07b1a) (101 min)
-
-**Day 4 (January 24)**
-
-* [Part 0, Expression parsing](https://vimeo.com/792385467/6fe40e3281) (94 min)
-* [Part 1, Combinator parsing, code generation discussion](https://vimeo.com/792385802/04060f9219) (87 min)
-
-**Day 5 (January 31)**
-
-* [Part 0, Stack machines, virtual machines](https://vimeo.com/794628980/ac1c1f72aa) (93 min)
-* [Part 1, Register machines, wrap-up](https://vimeo.com/794629274/6e13fd1938) (90 min)
-
-
-
-
