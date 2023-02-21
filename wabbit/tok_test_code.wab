@@ -1,0 +1,10 @@
+var x int = 1;
+var fact int = 1;
+var result float = 15.553;
+
+/* This is a while loop */
+while x < 11 {
+    fact = fact * x;
+    x = x + 1;
+    print fact;
+}

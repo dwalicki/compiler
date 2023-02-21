@@ -1,6 +1,7 @@
 # main.py
-from model import *
 from format import format_wabbit
+from interpret import interpret_wabbit
+from model import *
 
 program1 = PrintStatement(Integer("42"))
 
@@ -129,7 +130,8 @@ program8 = Statements(
     ]
 )
 
-if __name__ == "__main__":
+
+def format_programs():
     print("program 1:")
     print(format_wabbit(program1))
 
@@ -153,3 +155,42 @@ if __name__ == "__main__":
 
     print("program 8:")
     print(format_wabbit(program8))
+
+
+def interpret_programs():
+    print("Running program 1:")
+    interpret_wabbit(program1)
+
+    print("running program 2:")
+    interpret_wabbit(program2)
+
+    print("running program 3:")
+    interpret_wabbit(program3)
+
+    print("runing program 4:")
+    interpret_wabbit(program4)
+
+    print("running program 5:")
+    interpret_wabbit(program5)
+
+    print("running program 6:")
+    interpret_wabbit(program6)
+
+    print("running program 7:")
+    interpret_wabbit(program7)
+
+    print("running program 8:")
+    interpret_wabbit(program8)
+
+
+if __name__ == "__main__":
+    user_input = input(
+        "Enter F to run format methods or I to run interpret methods'\n"
+    ).upper()
+
+    if user_input == "F":
+        format_programs()
+    elif user_input == "I":
+        interpret_programs()
+    else:
+        print("Invalid entry please try again")
