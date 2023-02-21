@@ -1,4 +1,4 @@
-# Write a Compiler : January 2023
+# Write a Compiler : 2023
 
 Hello! This is the course project repo for the "Write a Compiler"
 course.  This project will serve as the central point of discussion, code
@@ -29,65 +29,6 @@ that happened during the course after the fact.
 
 Best,
 Dave
-
-## Instructor Solution
-
-I will also be coding the compiler from scratch.  You can follow along by
-looking in the "dabeaz" branch of the GitHub repo.
-
-## Course Scheduling
-
-This course is scheduled to run for the entire month of January.  It
-consists of five live discussion sessions on Zoom.  You will be
-expected to work approximately 5-10 hours per week outside of this to
-complete the coding project.
-
-## Live Session 
-
-The course is conducted live on Tuesdays, January 3, 10, 17, 24, 31
-from 09:30 to 13:00 US Central Time/Chicago on Zoom.  The meeting will
-be open about 30 minutes prior to the start time. Meeting details are
-as follows:
-
-Join Zoom Meeting
-https://us02web.zoom.us/j/82028132129?pwd=aUZwNjAwVjBVT0JOTjVLZVBHMHdkdz09
-
-Meeting ID: 820 2813 2129
-Passcode: 233195
-
-## Office Hours
-
-I will be online working on the project on Thursdays, January 5, 12,
-19, and 26 from 09:30 to 13:00 US Central Time/Chicago.  This is NOT an
-discussion section or a time where I will be presenting new material.
-However, if you having a coding question, you can drop in to ask me a
-question. You can also just watch me code if you want. Office hours
-are held using the same Zoom link as above.
-
-## Chat
-
-Discussion/Chat for the course can be found on [Gitter](https://gitter.im/dabeaz-course/compilers_2023_01).
-Chat is the preferred mechanism for asking questions about the project.
-
-## Course Requirements
-
-You are free to write the compiler in any language that you wish.
-However, for later code generation, you will minimally need the
-following tools installed:
-
-* The clang C/C++ compiler (for LLVM)
-* Node-JS and WABT (for WebAssembly)
-
-Solution code will be written in plain Python.  All code is written
-from scratch using no third-party libraries.  As such, it should be
-possible to translate the concepts to other languages.
-
-**CAUTION:** If you intend to implement the compiler in a statically
-typed language (e.g., Rust, C++, C#, Go, etc.), it is STRONGLY advised
-that you investigate techniques for representing abstract syntax trees
-(ASTs) prior to the course start.  This is how we start the project
-and it can be easy to get derailed by technical details of AST
-representation if you've never looked at it before.
 
 ## Preparation
 
